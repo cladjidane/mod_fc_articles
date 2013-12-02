@@ -23,6 +23,14 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
+
+				<field
+					name="subtitle"
+					type="text"
+					label="Sous titre"
+					default=""
+					description="Sous-titre" />
+
 				<field
 					name="catid"
 					type="category"
@@ -33,6 +41,18 @@
 					label="JCATEGORY"
 					description="" >
 					<option value="">JOPTION_ALL_CATEGORIES</option>
+				</field>
+
+				<field
+					name="caroussel"
+					type="radio"
+					default="0"
+					label="Mode caroussel"
+					description="Si les articles possèdent une image en une, ils peuvent être afficher sous forme de carrousel">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
 				</field>
 
 				<field

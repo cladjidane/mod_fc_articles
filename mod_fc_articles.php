@@ -14,6 +14,8 @@ defined('_JEXEC') or die;
 require_once dirname(__FILE__).'/helper.php';
 
 $list = modFcArticlesHelper::getList($params);
+$featured = modFcArticlesHelper::getFeatured($params);
+
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 
 require JModuleHelper::getLayoutPath('mod_fc_articles', $params->get('layout', 'horizontal'));
