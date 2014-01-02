@@ -10,7 +10,7 @@
 // no direct access
 defined('_JEXEC') or die;
 ?>
-<aside class="grid__item one-third aside-infos aside-infos--bx <?php echo $params->get('moduleclass_sfx'); ?>">
+<aside class="aside-infos aside-infos--bx <?php echo $params->get('moduleclass_sfx'); ?>">
 	<h2 class="aside-infos__title"><?php echo $module->title; ?></h2>
 
     
